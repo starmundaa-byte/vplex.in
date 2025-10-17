@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vplex.in</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <button class="menu-btn" title="Menu">☰</button>
+    <h1 class="logo">Vplex.in</h1>
+
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search" />
+      <span class="search-icon">🔍</span>
+    </div>
+
+    <button class="voice-btn" title="Voice Search">🎤</button>
+    <button class="notify-btn" title="Notifications">🔔</button>
+    <img src="https://via.placeholder.com/32" class="profile" alt="Profile" />
+  </header>
+
+
+  <!-- ===== CATEGORY BAR ===== -->
+  <div class="category-bar">
+    <div class="categories" id="categoryList">
+      <div class="category active" data-category="All">All</div>
+      <div class="category" data-category="Music">Music</div>
+      <div class="category" data-category="Sports">Sports</div>
+      <div class="category" data-category="Gaming">Gaming</div>
+      <div class="category" data-category="News">News</div>
+      <div class="category" data-category="Movies">Movies</div>
+      <div class="category" data-category="Tech">Tech</div>
+      <div class="category" data-category="Education">Education</div>
+      <div class="category" data-category="Travel">Travel</div>
+      <div class="category" data-category="Comedy">Comedy</div>
+      <div class="category" data-category="Science">Science</div>
+    </div>
+
+    <!-- Transparent symbolic arrows -->
+    <div class="cat-arrows">
+      <button class="cat-arrow left">&lt;</button>
+      <button class="cat-arrow right">&gt;</button>
+    </div>
+  </div>
+<!-- ===== HOME PAGE VIDEO GRID ===== -->
+<main class="video-container" id="videoContainer">
+  <!-- videos will be injected by JS -->
+</main>
+
+  <script src="script.js"></script>
+</body>
+</html>

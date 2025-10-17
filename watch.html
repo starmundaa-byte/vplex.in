@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Watch | Vplex.in</title>
+  <link rel="stylesheet" href="watch.css" />
+</head>
+<body>
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <button class="menu-btn">☰</button>
+    <h1 class="logo">Vplex.in</h1>
+  </header>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main class="watch-page">
+    <!-- Player + Details + Comments -->
+    <section class="video-section">
+      <div class="player-container">
+        <iframe id="player" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+      </div>
+
+      <div class="video-details">
+        <h2 id="videoTitle"></h2>
+        <p id="videoStats"></p>
+
+        <div class="channel-row">
+          <img id="channelLogo" class="channel-logo" alt="Channel">
+          <div class="channel-info">
+            <h3 id="channelName"></h3>
+            <button class="subscribe-btn">Subscribe</button>
+          </div>
+        </div>
+
+        <div class="action-row">
+          <button>👍</button>
+          <button>👎</button>
+          <button>🔗 Share</button>
+          <button>🕒 Watch Later</button>
+        </div>
+
+        <div class="comments">
+          <h4>Comments</h4>
+          <div id="commentList">Loading comments...</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommended videos -->
+    <aside class="recommend-section">
+      <h3>Recommended Videos</h3>
+      <div class="recommend-list" id="recommendList">
+        <!-- videos & ads will be injected -->
+      </div>
+    </aside>
+  </main>
+
+  <script src="watch.js"></script>
+</body>
+</html>
