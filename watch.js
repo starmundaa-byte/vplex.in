@@ -1,4 +1,4 @@
-const API_KEY = "AIzaSyCxHN_LvucVaJXAnlgABDM78nbTBVP1Ios";
+const API_KEY = ;
 const player = document.getElementById("player");
 const videoTitle = document.getElementById("videoTitle");
 const videoStats = document.getElementById("videoStats");
@@ -106,3 +106,4 @@ function timeSince(date) {
 }
 
 loadVideo();
+
