@@ -1,5 +1,5 @@
 // api.js
-const API_KEY = "AIzaSyCxHN_LvucVaJXAnlgABDM78nbTBVP1Ios"; // replace with your key
+const API_KEY = ; // replace with your key
 const BASE_URL = "https://www.googleapis.com/youtube/v3";
 
 export async function fetchVideos(query = "trending") {
@@ -19,3 +19,4 @@ export async function fetchVideos(query = "trending") {
     return [];
   }
 }
+
